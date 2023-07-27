@@ -13,12 +13,13 @@ app.get("/register", (req, res) => {
 
 //* post request:
 app.post("/register", (req, res) => {
-  
+
   // const { name, age } = req.body;
   // res.send(`WELCOME ${name} . You are ${age} years old`);
 
-  const { fullName, age } = req.body;
-  res.send(`<h1>My name is ${fullName} and Age is ${age}</h1>`);
+  const { fullName, age , phone} = req.body;
+  res.send(`<h1>My name is ${fullName} and Age is ${age} and my personal number is ${phone}</h1>`);
+  
   //res.send("Send Data");
 });
 
