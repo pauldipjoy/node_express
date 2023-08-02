@@ -2,5 +2,14 @@
   "cSpell.words": ["Antik", "areacalculator", "Dipjoy", "expressjs"],
   "editor.fontSize": 12.5,
   "editor.formatOnSave": true,
-  "cSpell.autoFormatConfigFile": true
+  "cSpell.autoFormatConfigFile": true,
+  "emmet.useInlineCompletions": false,
+  "emmet.includeLanguages": {
+    "": ""
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "always"
 }
