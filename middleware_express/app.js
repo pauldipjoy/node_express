@@ -11,14 +11,10 @@ next();
 
 app.use(myMiddleware);
 
-// app.use((req, res, next)=>{
-//   res.send("404 bad request");
-// });
+app.use((req, res, next)=>{
+  res.send("404 bad request");
+});
 
-app.use((err, req, res, next) => {
-  console.error(err.stack)
-  res.status(500).send('Something broke!')
-})
 
 
 
